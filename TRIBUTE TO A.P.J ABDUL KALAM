@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>Tribute</title>
+	<style type="text/css">
+		
+
+
+	</style>
+	
+
+	
+</head>
+<body>
+		
+	
+	<header id="head"><h1><center><em>A. P. J. Abdul Kalam  (Missile Man Of India)</em></center></h1>
+	<h6><center>11th Prime Minister Of India</center></h6></header>
+	
+	<nav>
+		<ul class="navbar" id="dropdownclick">
+		<li><a href="#">HOME</a></li>
+		<li><a href="CAREER.html">CAREER</a></li>
+		<li><a href="ac.html">ACHIEVEMENTS</a></li>
+		<li><a href="#">PICTURES</a></li>
+		<li class="navbar_right"><a href="#">SIGN IN</a></li>
+		<li class="navbar_right"><a href="#">SIGN UP</a></li>
+		<li class="drop"><a href="javascript:void(0);" onclick="dropdownmenu()">&#9776;</a></li>
+</ul>
+	</nav>
+
+<!--##########JAVASCRIPT#####-->
+<script type="text/javascript">
+
+function dropdownmenu(){
+var x=document.getElementById("dropdownclick");
+/*##  changing the navbar to navbar.responsive ##*/
+if(x.className ==="navbar"){
+	x.className +=" responsive";
+}
+else{
+	x.className="navbar";
+}
+
+	}
+
+
+
+</script>
+
+
+<br>
+
+<img  class="pic" src="13.jpg"  height="840">	
+
+<footer class="footsy">
+	<div class="row">
+		<div class="col-3">
+			<ul>
+				<h1>Company</h1>
+
+				<li>About</li>
+				<li>Blogs</li>
+				<li>Career</li>
+
+			</ul>
+			
+		</div>
+		<div class="col-3">
+			<ul>
+				<h1>Products</h1>
+
+				<li>Computers</li>
+				<li>ipads</li>
+				<li>iphones</li>
+
+			</ul>
+			
+		</div>
+		<div class="col-3">
+			<ul>
+				<h1>Support</h1>
+
+				<li>Help</li>
+				<li>QA</li>
+				<li>Contact</li>
+
+			</ul>
+			
+		</div>
+		<div class="col-3">
+			<ul>
+				<h1>LearnMore</h1>
+
+				<li>Developers</li>
+				<li>Designers</li>
+				<li>Hackers</li>
+
+			</ul>
+			
+		</div>
+	</div>
+
+
+</footer>
+
+
+
+
+	
+
+
+
+
+
+</body>
+</html>
